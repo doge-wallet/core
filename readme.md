@@ -17,13 +17,13 @@ let data = generate();
 
 console.log(data);
 
-// //打印出类似这样结构：
-// {
-//   address: 'DRt7NQEgN4ZMDb3BbLiaAPeSPKvqvjsVsC',
-//   privateKey: 'QVp8tp7BZRphU6MJP151Dubqp8CCBroXH1q3aGQr4kCHBNMtjSoc',
-//   publicKey: '0210b3e8fd2f8429ab3d23a27bc894cbd5c1c9b5815f10700bb34b9bdddf29cb0f',
-//   mnemonic: 'pluck country surface bargain shadow dial lumber vacant arch grace level scissors'
-// }
+//打印出类似这样结构：
+{
+  address: 'DRt7NQEgN4ZMDb3BbLiaAPeSPKvqvjsVsC',
+  privateKey: 'QVp8tp7BZRphU6MJP151Dubqp8CCBroXH1q3aGQr4kCHBNMtjSoc',
+  publicKey: '0210b3e8fd2f8429ab3d23a27bc894cbd5c1c9b5815f10700bb34b9bdddf29cb0f',
+  mnemonic: 'pluck country surface bargain shadow dial lumber vacant arch grace level scissors'
+}
 
 //-----------------
 //从已有的助记词进行解析。
@@ -31,12 +31,12 @@ data = fromMnemonic('pluck country surface bargain shadow dial lumber vacant arc
 
 console.log(data);
 
-// //打印出类似这样结构：
-// {
-//   address: 'DRt7NQEgN4ZMDb3BbLiaAPeSPKvqvjsVsC',
-//   privateKey: 'QVp8tp7BZRphU6MJP151Dubqp8CCBroXH1q3aGQr4kCHBNMtjSoc',
-//   publicKey: '0210b3e8fd2f8429ab3d23a27bc894cbd5c1c9b5815f10700bb34b9bdddf29cb0f',
-// }
+//打印出类似这样结构：
+{
+  address: 'DRt7NQEgN4ZMDb3BbLiaAPeSPKvqvjsVsC',
+  privateKey: 'QVp8tp7BZRphU6MJP151Dubqp8CCBroXH1q3aGQr4kCHBNMtjSoc',
+  publicKey: '0210b3e8fd2f8429ab3d23a27bc894cbd5c1c9b5815f10700bb34b9bdddf29cb0f',
+}
 
 
 ```

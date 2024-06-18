@@ -1,6 +1,6 @@
 {
     "name": "@dogewallet/core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "离线随机生成狗狗币钱包的助记词和对应的私钥、地址。",
     "main": "index.mjs",
     "scripts": {},
